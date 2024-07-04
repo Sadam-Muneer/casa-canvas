@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 
 class SearchForm extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
-
     return (
       <div className="ltn__car-dealer-form-area mt--65 mt-120 pb-115---">
         <div className="container">

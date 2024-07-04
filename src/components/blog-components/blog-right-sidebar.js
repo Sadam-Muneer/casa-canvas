@@ -16,7 +16,7 @@ class BlogList extends Component {
                     <Link to="/blog-details">
                       <img
                         src={publicUrl + "assets/img/homeimages/home4.jpg"}
-                        alt="Image"
+                        alt="img"
                       />
                     </Link>
                   </div>
@@ -174,7 +174,7 @@ class BlogList extends Component {
                       <Link to="/blog-details">
                         <img
                           src={publicUrl + "assets/img/blog/33.jpg"}
-                          alt="Image"
+                          alt="img"
                         />
                       </Link>
                     </div>
@@ -182,7 +182,7 @@ class BlogList extends Component {
                       <Link to="/blog-details">
                         <img
                           src={publicUrl + "assets/img/blog/34.jpg"}
-                          alt="Image"
+                          alt="img"
                         />
                       </Link>
                     </div>
@@ -190,7 +190,7 @@ class BlogList extends Component {
                       <Link to="/blog-details">
                         <img
                           src={publicUrl + "assets/img/blog/31.jpg"}
-                          alt="Image"
+                          alt="img"
                         />
                       </Link>
                     </div>
@@ -263,9 +263,6 @@ class BlogList extends Component {
                 </div>
                 {/* Blog Item (Audio) */}
                 <div className="ltn__blog-item ltn__blog-item-5 ltn__blog-item-audio go-top">
-                  <div className="post-audio embed-responsive embed-responsive-16by9">
-                    <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/837045328&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                  </div>
                   <div className="ltn__blog-brief">
                     <div className="ltn__blog-meta">
                       <ul>

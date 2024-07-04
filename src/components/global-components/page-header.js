@@ -7,7 +7,6 @@ class Page_header extends Component {
     let publicUrl = process.env.PUBLIC_URL + "/";
     let Subheader = this.props.subheader ? this.props.subheader : HeaderTitle;
     let CustomClass = this.props.customclass ? this.props.customclass : "";
-    let Img = this.props.Img ? this.props.Img : "14.jpg";
 
     return (
       <div
@@ -15,7 +14,6 @@ class Page_header extends Component {
           "ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image " +
           CustomClass
         }
-        data-bs-bg={publicUrl + "assets/img/bg/14.jpg"}
       >
         <div className="container">
           <div className="row">

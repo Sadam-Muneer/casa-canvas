@@ -36,7 +36,6 @@ class Footer_v1 extends Component {
 
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imgattr = "Footer logo";
 
     return (
       <footer className="ltn__footer-area  ">
@@ -161,7 +160,7 @@ class Footer_v1 extends Component {
                   <h5 className="mt-30">We Accept</h5>
                   <img
                     src={publicUrl + "assets/img/icons/payment-4.png"}
-                    alt="Payment Image"
+                    alt="img"
                   />
                 </div>
               </div>

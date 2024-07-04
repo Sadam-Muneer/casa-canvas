@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 
 class CategoryV1 extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
-
     return (
       <div className="ltn__category-area ltn__product-gutter section-bg-1--- pt-115 pb-90 go-top">
         <div className="container">

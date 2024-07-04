@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 class Sidebar extends Component {
   render() {
-    let anchor = "#";
-    let imagealt = "image";
     let publicUrl = process.env.PUBLIC_URL + "/";
     return (
       <div className="col-lg-4 go-top">
@@ -12,39 +10,39 @@ class Sidebar extends Component {
           {/* Author Widget */}
           <div className="widget ltn__author-widget">
             <div className="ltn__author-widget-inner text-center">
-              <img src={publicUrl + "assets/img/team/4.jpg"} alt="Image" />
+              <img src={publicUrl + "assets/img/team/4.jpg"} alt="Imag" />
               <h5>Rosalina D. Willaimson</h5>
               <small>Traveller/Photographer</small>
               <div className="product-ratting">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fas fa-star" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fas fa-star" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fas fa-star" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fas fa-star-half-alt" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="far fa-star" />
                     </a>
                   </li>
                   <li className="review-total">
                     {" "}
-                    <a href="#"> ( 1 Reviews )</a>
+                    <a href="/"> ( 1 Reviews )</a>
                   </li>
                 </ul>
               </div>
@@ -56,22 +54,22 @@ class Sidebar extends Component {
               <div className="ltn__social-media">
                 <ul>
                   <li>
-                    <a href="#" title="Facebook">
+                    <a href="/" title="Facebook">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" title="Twitter">
+                    <a href="/" title="Twitter">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" title="Linkedin">
+                    <a href="/" title="Linkedin">
                       <i className="fab fa-linkedin" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" title="Youtube">
+                    <a href="/" title="Youtube">
                       <i className="fab fa-youtube" />
                     </a>
                   </li>
@@ -133,27 +131,27 @@ class Sidebar extends Component {
                     <div className="product-ratting">
                       <ul>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
@@ -185,27 +183,27 @@ class Sidebar extends Component {
                     <div className="product-ratting">
                       <ul>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
@@ -235,27 +233,27 @@ class Sidebar extends Component {
                     <div className="product-ratting">
                       <ul>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fas fa-star-half-alt" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="far fa-star" />
                           </a>
                         </li>
@@ -692,22 +690,22 @@ class Sidebar extends Component {
             <div className="ltn__social-media-2">
               <ul>
                 <li>
-                  <a href="#" title="Facebook">
+                  <a href="/" title="Facebook">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="Twitter">
+                  <a href="/" title="Twitter">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="Linkedin">
+                  <a href="/" title="Linkedin">
                     <i className="fab fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="Instagram">
+                  <a href="/" title="Instagram">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>

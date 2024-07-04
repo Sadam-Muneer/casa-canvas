@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 
 class TeamV1 extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
 
     return (
       <div className="ltn__team-area pt-115 pb-90 go-top">
@@ -26,7 +24,7 @@ class TeamV1 extends Component {
                 <div className="team-img">
                   <img
                     src={publicUrl + "assets/img/aboutimages/rosalin.jpg"}
-                    alt="Image"
+                    alt="img"
                   />
                 </div>
                 <div className="team-info">
@@ -37,17 +35,17 @@ class TeamV1 extends Component {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -61,7 +59,7 @@ class TeamV1 extends Component {
                 <div className="team-img">
                   <img
                     src={publicUrl + "assets/img/aboutimages/kelian.jpg"}
-                    alt="Image"
+                    alt="img"
                   />
                 </div>
                 <div className="team-info">
@@ -72,17 +70,17 @@ class TeamV1 extends Component {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -96,7 +94,7 @@ class TeamV1 extends Component {
                 <div className="team-img">
                   <img
                     src={publicUrl + "assets/img/aboutimages/miranda.jpg"}
-                    alt="Image"
+                    alt="img"
                   />
                 </div>
                 <div className="team-info">
@@ -107,17 +105,17 @@ class TeamV1 extends Component {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>

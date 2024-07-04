@@ -1,11 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 
 class Location extends Component {
   componentDidMount() {
-    const $ = window.$;
-
     let publicUrl = process.env.PUBLIC_URL + "/";
     const minscript = document.createElement("script");
     minscript.async = true;
@@ -21,8 +17,6 @@ class Location extends Component {
   }
 
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
-
     return (
       <div>
         <div className="ltn__google-map-locations-area">
@@ -80,7 +74,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -107,7 +101,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -134,7 +128,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -161,7 +155,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -188,7 +182,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -215,7 +209,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -247,7 +241,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -274,7 +268,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -301,7 +295,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -333,7 +327,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -360,7 +354,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website
@@ -387,7 +381,7 @@ class Location extends Component {
                       <i className="fas fa-location-arrow" /> Get An Appointment
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="btn btn-transparent btn-border btn-effect-3"
                     >
                       <i className="fas fa-globe" /> View Website

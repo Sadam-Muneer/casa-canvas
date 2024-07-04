@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  HashRouter,
-  Route,
-  Switch,
-} from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import HomeV1 from "./components/home-v1";
 import About from "./components/about";
 import Location from "./components/location";

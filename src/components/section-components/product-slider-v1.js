@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 
 class ProductSliderV1 extends Component {
   render() {
@@ -123,7 +122,7 @@ class ProductSliderV1 extends Component {
                       <ul>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Quick View"
                             data-bs-toggle="modal"
                             data-bs-target="#quick_view_modal"
@@ -133,7 +132,7 @@ class ProductSliderV1 extends Component {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Wishlist"
                             data-bs-toggle="modal"
                             data-bs-target="#liton_wishlist_modal"
@@ -255,7 +254,7 @@ class ProductSliderV1 extends Component {
                       <ul>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Quick View"
                             data-bs-toggle="modal"
                             data-bs-target="#quick_view_modal"
@@ -265,7 +264,7 @@ class ProductSliderV1 extends Component {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Wishlist"
                             data-bs-toggle="modal"
                             data-bs-target="#liton_wishlist_modal"
@@ -387,7 +386,7 @@ class ProductSliderV1 extends Component {
                       <ul>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Quick View"
                             data-bs-toggle="modal"
                             data-bs-target="#quick_view_modal"
@@ -397,7 +396,7 @@ class ProductSliderV1 extends Component {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Wishlist"
                             data-bs-toggle="modal"
                             data-bs-target="#liton_wishlist_modal"
@@ -519,7 +518,7 @@ class ProductSliderV1 extends Component {
                       <ul>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Quick View"
                             data-bs-toggle="modal"
                             data-bs-target="#quick_view_modal"
@@ -529,7 +528,7 @@ class ProductSliderV1 extends Component {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Wishlist"
                             data-bs-toggle="modal"
                             data-bs-target="#liton_wishlist_modal"
@@ -651,7 +650,7 @@ class ProductSliderV1 extends Component {
                       <ul>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Quick View"
                             data-bs-toggle="modal"
                             data-bs-target="#quick_view_modal"
@@ -661,7 +660,7 @@ class ProductSliderV1 extends Component {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/"
                             title="Wishlist"
                             data-bs-toggle="modal"
                             data-bs-target="#liton_wishlist_modal"
@@ -783,33 +782,33 @@ class ProductSliderV1 extends Component {
                             <div className="product-ratting">
                               <ul>
                                 <li>
-                                  <a href="#">
+                                  <a href="/">
                                     <i className="fas fa-star" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/">
                                     <i className="fas fa-star" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/">
                                     <i className="fas fa-star" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/">
                                     <i className="fas fa-star-half-alt" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/">
                                     <i className="far fa-star" />
                                   </a>
                                 </li>
                                 <li className="review-total">
                                   {" "}
-                                  <a href="#"> ( 95 Reviews )</a>
+                                  <a href="/"> ( 95 Reviews )</a>
                                 </li>
                               </ul>
                             </div>
@@ -845,7 +844,7 @@ class ProductSliderV1 extends Component {
                                 </li>
                                 <li>
                                   <a
-                                    href="#"
+                                    href="/"
                                     className="theme-btn-1 btn btn-effect-1"
                                     title="Add to Cart"
                                     data-bs-toggle="modal"
@@ -862,22 +861,22 @@ class ProductSliderV1 extends Component {
                               <ul>
                                 <li>Share:</li>
                                 <li>
-                                  <a href="#" title="Facebook">
+                                  <a href="/" title="Facebook">
                                     <i className="fab fa-facebook-f" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#" title="Twitter">
+                                  <a href="/" title="Twitter">
                                     <i className="fab fa-twitter" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#" title="Linkedin">
+                                  <a href="/" title="Linkedin">
                                     <i className="fab fa-linkedin" />
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#" title="Instagram">
+                                  <a href="/" title="Instagram">
                                     <i className="fab fa-instagram" />
                                   </a>
                                 </li>

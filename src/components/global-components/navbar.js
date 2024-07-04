@@ -37,7 +37,7 @@ class Navbar extends Component {
                           <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
                             <ul>
                               <li>
-                                <a href="#" className="dropdown-toggle">
+                                <a href="/" className="dropdown-toggle">
                                   <span className="active-currency">
                                     English
                                   </span>
@@ -408,22 +408,22 @@ class Navbar extends Component {
             <div className="ltn__social-media-2">
               <ul>
                 <li>
-                  <a href="#" title="Facebook">
+                  <a href="/" title="Facebook">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="Twitter">
+                  <a href="/" title="Twitter">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="Linkedin">
+                  <a href="/" title="Linkedin">
                     <i className="fab fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="Instagram">
+                  <a href="/" title="Instagram">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>
